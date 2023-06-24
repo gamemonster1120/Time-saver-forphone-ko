@@ -1,0 +1,151 @@
+
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  45% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  55% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+} 
+body {
+    background: linear-gradient(to top right, black, white);
+    height: 100vh;
+    background-size: 500% auto;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    animation: wave 10s linear infinite;
+    
+}
+
+
+a {
+  text-decoration: none;
+  
+}
+
+#container a {
+  color: black;
+}
+
+
+ 
+h1 {
+    
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    font-size: 35pt;
+    padding-left: 10px;
+    margin-top: 40px;
+    text-shadow: 1px 1px 10px black;
+}
+
+.topline {
+    height: 10px;
+    
+    background: white;
+}
+
+.menubar {
+    background: gray;
+    height:70px;
+    width: 100%;
+}
+
+.runningtime {
+    float: left;
+    background: white;
+    width: 15%;
+    height: 30px;
+    margin: 1%;
+    margin-top: 3.5%;
+    font-size: 16pt;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 100px 100px 100px 100px;
+  
+    
+    
+    align-items: center;
+
+}
+
+#movie div {
+    background: white;
+    width: 17%;
+    height: 15vh;
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+    
+}
+@keyframes posterAnimation {
+    0% {
+      background-image: url('path_to_div-1');
+    }
+
+    25% {
+      background-image: url('path_to_div-2');
+    }
+
+    50% {
+      background-image: url('path_to_div-3');
+    }
+
+    75% {
+      background-image: url('path_to_div-4');
+    }
+
+    100% {
+      background-image: url('path_to_div-1');
+    }
+  }
+
+
+#searchInput {
+  border-radius: 20px 20px 20px 20px;
+  height: 30px;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+#search {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -5px;
+}
+
+#button {
+  width: 50px;
+  margin-left:5px;
+  margin-top: 15px;
+  rotate: 180deg;
+}
+
+
+h2 {
+  float: left;
+}
+h3 {
+  float: left;
+  font-size: 10pt;
+  margin-left: 20px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}

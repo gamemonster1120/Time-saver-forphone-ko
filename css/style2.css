@@ -1,0 +1,171 @@
+
+body {
+    background: linear-gradient(to top right, black, white);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    animation: wave 10s linear infinite;
+    zoom:0%;
+}
+
+h1 {
+    
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    font-size: 35pt;
+    padding-left: 10px;
+    margin-top: 40px;
+    text-shadow: 1px 1px 10px black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.back img {
+    width: 250px;
+    height: 150px;
+    rotate: 180deg;
+    margin-top: -35px;
+    margin-left: -30px;
+    
+}
+.topline {
+    height: 10px;
+    
+    background: white;
+    margin-top: -100px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.back {
+    width: 350px;
+    height: 80px;
+
+    margin-left: 1150px;
+    margin-top: 40px;
+    
+    background: none;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h2{
+    float: right;
+    font-size: 35pt;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+
+.poster {
+    background: white;
+    width: 40%;
+    height: 26vh;
+    margin: 2%;
+    margin-top: 15%;
+}
+
+h3 {
+    color: white;
+    font-size: 15pt;
+    text-shadow: 1px 1px 10px black;
+    
+}
+#produce {
+    float: right;
+    
+    margin-top: -60%;
+    width: 47%;
+    margin-right: 5%;
+}
+
+=======
+body {
+    background: linear-gradient(to top right, black, white);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    animation: wave 10s linear infinite;
+    zoom:0%;
+}
+
+h1 {
+    
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    font-size: 35pt;
+    padding-left: 10px;
+    margin-top: 40px;
+    text-shadow: 1px 1px 10px black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.back img {
+    width: 250px;
+    height: 150px;
+    rotate: 180deg;
+    margin-top: -35px;
+    margin-left: -30px;
+    
+}
+.topline {
+    height: 10px;
+    
+    background: white;
+    margin-top: -100px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.back {
+    width: 350px;
+    height: 80px;
+
+    margin-left: 1150px;
+    margin-top: 40px;
+    
+    background: none;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h2{
+    float: right;
+    font-size: 35pt;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+
+.poster {
+    background: white;
+    width: 40%;
+    height: 26vh;
+    margin: 2%;
+    margin-top: 15%;
+}
+
+h3 {
+    color: white;
+    font-size: 15pt;
+    text-shadow: 1px 1px 10px black;
+    
+}
+#produce {
+    float: right;
+    
+    margin-top: -60%;
+    width: 47%;
+    margin-right: 5%;
+}
+
+>>>>>>> 1e735cb1123dff78140f5de34c80a8bf0fe16d31

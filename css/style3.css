@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'TTTtangsbudaejjigaeB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@keyframes wave {
+    0% {
+      background-position: 0 0;
+    }
+    45% {
+      background-position: 100% 0;
+    }
+    50% {
+      background-position: 100% 0;
+    }
+    55% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  } 
+  body {
+      background: linear-gradient(to top right, black, white);
+      height: 125vh;
+      background-size: 500% auto;
+      background-repeat: no-repeat;
+      
+      animation: wave 10s linear infinite;
+      
+  }
+
+
+
+ 
+h1 {
+    
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    font-size: 35pt;
+    padding-left: 10px;
+    margin-top: 40px;
+    text-shadow: 1px 1px 10px black;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.topline {
+    height: 10px;
+    
+    background: white;
+}
+
+.menubar {
+    background: gray;
+    height:70px;
+    width: 100%;
+}
+
+.runningtime {
+    float: left;
+    background: white;
+    width: 15%;
+    height: 30px;
+    margin: 1%;
+    margin-top: 3.5%;
+    font-size: 16pt;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 100px 100px 100px 100px;
+  
+    
+    
+    align-items: center;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+
+.movie-poster {
+    background: white;
+    width: 17%;
+    height: 15vh;
+    float: left;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+  }
+
+  .movie-poster img {
+    margin-left: 80px;
+    padding-top: 120px;
+  }
+
+  #movie-container {
+    padding-top: 20%;
+    padding-left: 5%;
+  }
+
+
+  
+
+  
