@@ -140,12 +140,13 @@ h1 {
 
 h2 {
   float: left;
+  font-size: 15pt;
 }
 h3 {
   float: left;
   font-size: 10pt;
-  margin-left: 20px;
-  margin-top: 30px;
+  margin-left: 30px;
+  margin-top: 25px;
   padding-bottom: 20px;
   color: white;
 }
